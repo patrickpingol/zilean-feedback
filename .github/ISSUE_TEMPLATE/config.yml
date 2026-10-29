@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Documentation
+    url: https://zilean.dev
+    about: Guides, concepts and reference for Zilean.
+  - name: Security issues
+    url: mailto:support@zilean.dev
+    about: Please report security vulnerabilities privately by email, not in a public issue.

@@ -1,0 +1,35 @@
+name: Feature request
+description: Suggest an idea or improvement for Zilean
+title: "[Feature]: "
+labels: ["enhancement", "triage"]
+body:
+  - type: markdown
+    attributes:
+      value: Thanks for the suggestion! Please check existing issues first to avoid duplicates.
+  - type: textarea
+    id: problem
+    attributes:
+      label: What problem are you trying to solve?
+      description: Describe the situation or limitation you're running into.
+    validations:
+      required: true
+  - type: textarea
+    id: solution
+    attributes:
+      label: What would you like to happen?
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives or workarounds you've considered
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area
+      options: [Scheduling, HTTP jobs, Script jobs, Workflows, Admin UI, API, MCP, Users & auth, Monitoring, Deployment, Other]
+  - type: input
+    id: version
+    attributes:
+      label: Zilean version
+      placeholder: e.g. v4.0.0
