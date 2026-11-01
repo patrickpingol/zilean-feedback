@@ -5,6 +5,8 @@ This is where to report bugs and request features for
 
 https://github.com/user-attachments/assets/0a5bda78-26c7-46c9-8848-2f7fbd7b1054
 
+https://github.com/user-attachments/assets/c47721cc-1722-4051-931e-d6a3458b748c
+
 ## Report a bug
 
 [Open a bug report](https://github.com/patrickpingol/zilean-feedback/issues/new?template=bug_report.yml)
